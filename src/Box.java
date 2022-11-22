@@ -42,4 +42,11 @@ public class Box {
         simpleItems = new ArrayList<>();
     }
 
+    public void addItem(Box box){
+        this.simpleItems.addAll(box.getSimpleItems());
+    }
+    public void addItem(SimpleItem item){
+        this.simpleItems.add(item);
+    }
+
 }

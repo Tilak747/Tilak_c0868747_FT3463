@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892ee7f1-2801-49fa-8a58-300dd1f396b8" name="Changes" comment="-added test file&#10;-created box object with field boxNumber and cardBoardNumber">
-      <change afterPath="$PROJECT_DIR$/src/SimpleItem.java" afterDir="false" />
+    <list default="true" id="892ee7f1-2801-49fa-8a58-300dd1f396b8" name="Changes" comment="-create Moving class and add functions.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669082310146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-create SimpleItem class&#10;-add list of simpleitems in Box and add default constructor">
+      <created>1669082450399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669082450399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-create Moving class and add functions.">
+      <created>1669082565050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669082565050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-added test file&#10;-created box object with field boxNumber and cardBoardNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="-added test file&#10;-created box object with field boxNumber and cardBoardNumber" />
+    <MESSAGE value="-create SimpleItem class&#10;-add list of simpleitems in Box and add default constructor" />
+    <MESSAGE value="-create Moving class and add functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="-create Moving class and add functions." />
   </component>
 </project>

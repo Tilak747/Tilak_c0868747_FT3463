@@ -1,4 +1,4 @@
-public class SimpleItem extends Box{
+public class SimpleItem{
 
     private String name;
 

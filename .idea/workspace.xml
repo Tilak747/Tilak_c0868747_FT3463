@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892ee7f1-2801-49fa-8a58-300dd1f396b8" name="Changes" comment="-method overloading on box clas&#10;-update simpleitem as independent.">
+    <list default="true" id="892ee7f1-2801-49fa-8a58-300dd1f396b8" name="Changes" comment="update the find function and print function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moving.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669082690196</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update the find function and print function">
+      <created>1669082854331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669082854331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +111,7 @@
     <MESSAGE value="-create SimpleItem class&#10;-add list of simpleitems in Box and add default constructor" />
     <MESSAGE value="-create Moving class and add functions." />
     <MESSAGE value="-method overloading on box clas&#10;-update simpleitem as independent." />
-    <option name="LAST_COMMIT_MESSAGE" value="-method overloading on box clas&#10;-update simpleitem as independent." />
+    <MESSAGE value="update the find function and print function" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the find function and print function" />
   </component>
 </project>

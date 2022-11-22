@@ -6,14 +6,10 @@ public class Box {
     private int boxNumber;
     private int cardBoardNumber;
 
-    private List<SimpleItem> simpleItems;
+    private final List<SimpleItem> simpleItems;
 
     public List<SimpleItem> getSimpleItems() {
         return simpleItems;
-    }
-
-    public void setSimpleItems(List<SimpleItem> simpleItems) {
-        this.simpleItems = simpleItems;
     }
 
     public int getBoxNumber() {
@@ -32,13 +28,9 @@ public class Box {
         this.cardBoardNumber = cardBoardNumber;
     }
 
-    public Box(){
-        simpleItems = new ArrayList<>();
-    }
-
-    public Box(int boxName, int itemNumber) {
-        this.boxNumber = boxName;
-        this.cardBoardNumber = itemNumber;
+    public Box(int boxNumber, int cardBoardNumber) {
+        this.setBoxNumber(boxNumber);
+        this.setCardBoardNumber(cardBoardNumber);
         simpleItems = new ArrayList<>();
     }
 

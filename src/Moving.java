@@ -14,11 +14,23 @@ public class Moving {
     }
 
     public String find(String name){
+        for(Box box:boxes){
+            for(SimpleItem item:box.getSimpleItems()){
+                if(item.getName().equals(name)){
+                    return ""+box.getCardBoardNumber();
+                }
+            }
+        }
         return "";
     }
 
     public void print(){
-
+        System.out.println("The objects of my move are:");
+        for(Box box : boxes){
+            for(SimpleItem item:box.getSimpleItems()){
+                System.out.println(item);
+            }
+        }
     }
 
 

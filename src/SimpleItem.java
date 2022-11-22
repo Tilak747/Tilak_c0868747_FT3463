@@ -11,11 +11,11 @@ public class SimpleItem{
     }
 
     public SimpleItem(String name){
-        this.name = name;
+        this.setName(name);
     }
 
     @Override
     public String toString() {
-        return name;
+        return getName();
     }
 }

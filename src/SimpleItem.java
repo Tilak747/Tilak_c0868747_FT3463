@@ -1,4 +1,4 @@
-public class SimpleItem{
+public class SimpleItem extends Item{
 
     private String name;
 
@@ -17,5 +17,10 @@ public class SimpleItem{
     @Override
     public String toString() {
         return getName();
+    }
+
+    @Override
+    String find(String name) {
+        return getName().equals(name) ? getName() : "-1";
     }
 }

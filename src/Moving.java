@@ -3,33 +3,28 @@ import java.util.List;
 
 public class Moving {
 
-    private final List<Box> boxes;
+    private final List<Item> items;
 
     public Moving(int size){
-        boxes = new ArrayList<>(size);
+        items = new ArrayList<>(size);
     }
 
-    public void addBox(Box box){
-        boxes.add(box);
+    public void addBox(Item item){
+        items.add(item);
     }
 
     public String find(String name){
-        for(Box box:boxes){
-            for(SimpleItem item:box.getSimpleItems()){
-                if(item.getName().equals(name)){
-                    return ""+box.getCardBoardNumber();
-                }
-            }
+
+        for(Item item:items){
+            return item.find(name);
         }
-        return "";
+        return "-1";
     }
 
     public void print(){
         System.out.println("The objects of my move are:");
-        for(Box box : boxes){
-            for(SimpleItem item:box.getSimpleItems()){
-                System.out.println(item);
-            }
+        for(Item box : items){
+            System.out.println(box);
         }
     }
 
